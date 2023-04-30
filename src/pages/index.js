@@ -28,7 +28,7 @@ export default function Home() {
                 alt="MiguelFuentes"
                 className="w-auto h-auto m-auto rounded-full shadow-2xl lg:inline-block lg:w-full"
                 priority
-                sizes="(max-width:768px) 100vw, (max-width:1200px) 50vw, 50vw"
+                sizes="(max-width:768px) 100vw, (max-width:1200px) 40vw, 40vw"
               />
             </div>
             <div className="w-1/2 flex flex-col items-center self-center lg:w-full lg:text-center">
