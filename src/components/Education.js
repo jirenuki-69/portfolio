@@ -17,7 +17,7 @@ const Details = ({ type, time, place, info }) => {
         transition={{ duration: 0.5, type: 'spring' }}
       >
         <h3 className="capitalize font-bold text-2xl sm:text-xl xs:text-lg">
-          {name}
+          {type}
         </h3>
         <span className="capitalize font-medium text-dark/75 dark:text-light/75 xs:text-sm">
           {time} - {place}
@@ -50,7 +50,7 @@ const Education = () => {
             type="Bachelor Of Software Engineering"
             time="August 2019 - June 2023"
             place="Universidad Modelo"
-            info="Relevant courses of Software Enginnering including Data Strctures and Algorithms"
+            info="Relevant courses of Software Enginnering including Data Structures and Algorithms"
           />
         </ul>
       </div>
