@@ -22,13 +22,13 @@ export default function Home() {
       <main className="flex items-center text-dark w-full min-h-screen dark:text-light">
         <Layout className="p-32 pt-0 xl:p-24 lg:p-16 md:p-12 md:pt-16 sm:pt-8">
           <div className="flex items-center justify-between w-full lg:flex-col">
-            <div className="w-1/2">
+            <div className="w-1/2 md:mr-5">
               <Image
                 src={profilePic}
                 alt="MiguelFuentes"
                 className="w-auto h-auto m-auto rounded-full shadow-2xl lg:inline-block lg:w-full"
                 priority
-                sizes="(max-width:768px) 100vw, (max-width:1200px) 40vw, 40vw"
+                sizes="(max-width:768px) 100vw, (max-width:1200px) 50vw, 50vw"
               />
             </div>
             <div className="w-1/2 flex flex-col items-center self-center lg:w-full lg:text-center">
