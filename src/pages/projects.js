@@ -7,6 +7,7 @@ import Link from 'next/link';
 import React from 'react';
 import pokedexImage from '../../public/images/projects/pokedex-img.png';
 import modernLandingImage from '../../public/images/projects/modern-landing-page.png';
+import TransitionEffect from '@/components/TransitionEffect';
 
 const FeaturedProject = ({ type, title, summary, img, link, github }) => {
   return (
@@ -78,7 +79,9 @@ const Project = ({ title, type, img, link, github }) => {
           target={'_blank'}
           className="hover:underline underline-offset-2"
         >
-          <h2 className="my-2 w-full text-left text-3xl font-bold text-primary dark:text-primaryDark lg:text-2xl">{title}</h2>
+          <h2 className="my-2 w-full text-left text-3xl font-bold text-primary dark:text-primaryDark lg:text-2xl">
+            {title}
+          </h2>
         </Link>
         <div className="w-full mt-2 flex items-center justify-between">
           <Link
@@ -104,6 +107,7 @@ const Projects = () => {
         <title>MiguelFuentes | Projects</title>
         <meta name="description" content="any description" />
       </Head>
+      <TransitionEffect />
       <main className="w-full mb-16 flex flex-col items-center justify-center dark:text-light">
         <Layout className="pt-16 p-32 xl:p-24 lg:p-16 md:p-12 sm:pt-8">
           <AnimatedText
