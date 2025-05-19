@@ -57,6 +57,13 @@ const skills = {
       colorDark: 'bg-blue-300'
     },
     {
+      name: '.NET',
+      x: '-15vw',
+      y: '9vw',
+      colorLight: 'bg-purple-700',
+      colorDark: 'bg-purple-700'
+    },
+    {
       name: 'NextJS',
       x: '15vw',
       y: '5vw',
