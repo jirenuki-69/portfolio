@@ -2,7 +2,6 @@ import { motion } from 'framer-motion';
 import skills from '../constants/skills';
 
 const displaySkills = (skills) => {
-  console.log(skills);
   return skills.skillsArray.map(function (skill, index) {
     var name = skill.name;
     var x = skill.x;
